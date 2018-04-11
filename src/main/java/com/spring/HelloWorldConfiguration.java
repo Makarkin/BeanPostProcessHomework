@@ -11,7 +11,6 @@ import org.springframework.context.annotation.Configuration;
 
 
 @Configuration
-@ComponentScan("com.spring.injection")
 public class HelloWorldConfiguration implements BeanPostProcessor {
 
     @Bean(name = "injector")
